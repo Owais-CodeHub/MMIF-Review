@@ -24,26 +24,6 @@ This repo extends the paper with **datasets, models, and structured summaries** 
 
 ---
 
-## 📂 Repository Structure
-
-MMIF-Review/
-├─ README.md
-├─ datasets/
-│ ├─ README.md # Curated dataset table
-│ └─ entries/ # One file per dataset (Markdown)
-├─ models/
-│ ├─ README.md # Curated model table
-│ └─ entries/ # One file per model (Markdown)
-├─ summaries/
-│ ├─ traditional.md # Pixel-, feature-, decision-level notes
-│ ├─ deep-learning.md # CNN, GAN, VAE, diffusion
-│ └─ transformers.md # Swin-based, ViT-based, TransFuse, etc.
-├─ assets/ # Figures, logos
-└─ CITATION.bib
-
-
----
-
 ## 📊 Multi-Modal Medical Imaging Datasets (Curated)
 A practical list spanning CT, MRI, PET, SPECT, Ultrasound, X-ray.
 
@@ -79,20 +59,6 @@ A practical list spanning CT, MRI, PET, SPECT, Ultrasound, X-ray.
 
 ---
 
-## 🧭 Quick Start (How to Contribute)
-
-1) **Add a Dataset**
-- Copy the template below to `datasets/entries/NAME.md`
-- Add a row in `datasets/README.md`
-
-2) **Add a Model**
-- Copy the template below to `models/entries/NAME.md`
-- Add a row in `models/README.md`
-
-3) **Improve Summaries**
-- Update comparative notes in `summaries/`
-
----
 
 ## 🧱 Dataset Entry Template (Markdown)
 
@@ -108,10 +74,16 @@ Create: `datasets/entries/DATASET_NAME.md`
 **Notes:** (preprocessing tips, common fusion pairings, caveats)
 
 
-@misc{mmifreview2025repo,
-  title = {MMIF-Review: Datasets, Models, and Comparative Summaries for Multi-Modal Medical Image Fusion},
-  author = {Owais, Muhammad and Zubair, Muhammad and Hussain, Muzammil and Al-Bashrawi, Mousa Ahmad and Bendechache, Malika},
-  year = {2025},
-  howpublished = {\url{https://github.com/<YOUR-ORG>/MMIF-Review}},
-  note = {Version 1.0}
+
+@article{Zubair2025MMIF,
+  title   = {A comprehensive review of techniques, algorithms, advancements, challenges, and clinical applications of multi-modal medical image fusion for improved diagnosis},
+  author  = {Muhammad Zubair, Muzammil Hussain, Mousa Ahmad Al-Bashrawi, Malika Bendechache, Muhammad Owais},
+  journal = {Computer Methods and Programs in Biomedicine},
+  volume  = {---},
+  pages   = {---},
+  year    = {2025},
+  issn    = {---},
+  doi     = {---},
+  url     = {---}
 }
+
