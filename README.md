@@ -54,6 +54,7 @@ A practical list spanning CT, MRI, PET, SPECT, Ultrasound, X-ray.
 | SwinFusion | Transformer-based Fusion | Multi-modal | General | https://github.com/linfengzhang/SwinFusion |
 | IFCNN | CNN-based Fusion | MRI-CT | Medical | https://github.com/yanchaozhong/IFCNN |
 | TransFusion | Transformer-based Fusion | PET-CT/MRI | Medical | https://github.com/wgcban/TransFusion |
+| DILRAN | Dilated Residual Attention Net (CNN, edge-enhanced) | CT-MRI / PET-SPECT fusion | Medical | https://github.com/simonZhou86/dilran |
 
 👉 Add more in `models/entries/` using the template below.
 
